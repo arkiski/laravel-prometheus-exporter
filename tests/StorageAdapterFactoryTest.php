@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use Prometheus\Storage\APC;
 use Prometheus\Storage\InMemory;
 use Prometheus\Storage\Redis;
-use Superbalist\LaravelPrometheusExporter\StorageAdapterFactory;
+use Barnetik\LaravelPrometheusExporter\StorageAdapterFactory;
 
 class StorageAdapterFactoryTest extends TestCase
 {

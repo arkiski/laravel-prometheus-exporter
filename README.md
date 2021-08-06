@@ -9,12 +9,12 @@ A prometheus exporter for Laravel.
 [![Packagist Version](https://img.shields.io/packagist/v/superbalist/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/superbalist/laravel-prometheus-exporter)
 [![Total Downloads](https://img.shields.io/packagist/dt/superbalist/laravel-prometheus-exporter.svg?style=flat-square)](https://packagist.org/packages/superbalist/laravel-prometheus-exporter)
 
-This package is a wrapper bridging [jimdo/prometheus_client_php](https://github.com/Jimdo/prometheus_client_php) into Laravel.
+This package is a wrapper bridging [endclothing/prometheus_client_php](https://github.com/endclothing/prometheus_client_php) into Laravel. It is forked from [superbalist/prometheus_client_php](https://github.com/Superbalist/prometheus_client_php) and changed to avoid using unmaintained library.
 
 ## Installation
 
 ```bash
-composer require superbalist/laravel-prometheus-exporter
+composer require barnetik/laravel-prometheus-exporter
 ```
 
 Register the service provider in app.php
